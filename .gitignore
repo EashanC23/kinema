@@ -1,3 +1,11 @@
-target/*
-target/
-*.mov
+# target/*
+# target/
+# *.mov
+# *.mp4
+
+/*
+
+!./src/
+!./Cargo.toml
+!./Cargo.lock
+!./examples/
